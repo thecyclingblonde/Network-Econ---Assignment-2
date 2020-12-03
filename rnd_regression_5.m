@@ -299,3 +299,7 @@ chainstats(chain)
 z = mean(chain)./std(chain);
 pvalue = 2*(1 - normcdf(z));
 disp(['P-values: ' num2str(pvalue)])
+
+
+%% hhh
+
